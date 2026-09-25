@@ -1,0 +1,18 @@
+{
+  "untouched": {
+    "n_train": 600,
+    "test_accuracy": 0.675
+  },
+  "filtered": {
+    "n_train": 134,
+    "test_accuracy": 0.575
+  },
+  "downweighted": {
+    "n_train": 600,
+    "test_accuracy": 0.635
+  },
+  "oracle": {
+    "n_train": 200,
+    "test_accuracy": 0.685
+  }
+}

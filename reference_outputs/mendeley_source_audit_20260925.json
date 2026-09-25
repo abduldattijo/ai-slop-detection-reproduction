@@ -1,0 +1,7189 @@
+{
+  "purpose": "Exploratory audit only; flags are not verified AI authorship labels.",
+  "source_dataset": "Mendeley Data 38j8b6s2mx version 1",
+  "counts": {
+    "source_collection_rows": 1000,
+    "source_unique_texts": 994,
+    "source_duplicate_rows": 6,
+    "calibration_source_reference": 200,
+    "calibration_synthetic": 400,
+    "heldout_source_human_reference": 200,
+    "nonoverlapping_source_audit": 594
+  },
+  "methods": {
+    "perplexity_score": {
+      "threshold_for_80pct_synthetic_recall": 0.8426831155704709,
+      "calibration_source_reference_flagged": 197,
+      "calibration_source_reference_total": 200,
+      "calibration_synthetic_flagged": 320,
+      "calibration_synthetic_total": 400,
+      "heldout_source_reference_flagged": 193,
+      "heldout_source_reference_total": 200,
+      "audit_source_flagged": 571,
+      "audit_source_total": 594
+    },
+    "near_dup_score": {
+      "threshold_for_80pct_synthetic_recall": 0.5913833379745483,
+      "calibration_source_reference_flagged": 115,
+      "calibration_source_reference_total": 200,
+      "calibration_synthetic_flagged": 320,
+      "calibration_synthetic_total": 400,
+      "heldout_source_reference_flagged": 143,
+      "heldout_source_reference_total": 200,
+      "audit_source_flagged": 386,
+      "audit_source_total": 594
+    },
+    "density_score": {
+      "threshold_for_80pct_synthetic_recall": 0.41285173802605174,
+      "calibration_source_reference_flagged": 118,
+      "calibration_source_reference_total": 200,
+      "calibration_synthetic_flagged": 320,
+      "calibration_synthetic_total": 400,
+      "heldout_source_reference_flagged": 153,
+      "heldout_source_reference_total": 200,
+      "audit_source_flagged": 420,
+      "audit_source_total": 594
+    },
+    "combined_score": {
+      "threshold_for_80pct_synthetic_recall": 0.6314660050367206,
+      "calibration_source_reference_flagged": 133,
+      "calibration_source_reference_total": 200,
+      "calibration_synthetic_flagged": 320,
+      "calibration_synthetic_total": 400,
+      "heldout_source_reference_flagged": 158,
+      "heldout_source_reference_total": 200,
+      "audit_source_flagged": 444,
+      "audit_source_total": 594
+    }
+  },
+  "audit_reviews": [
+    {
+      "id": "mendeley_2012_1",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6503366309701837
+    },
+    {
+      "id": "mendeley_2012_2",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.607943705169295
+    },
+    {
+      "id": "mendeley_2012_6",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6203302882425514
+    },
+    {
+      "id": "mendeley_2012_7",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5531796718450291
+    },
+    {
+      "id": "mendeley_2012_8",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7257812140691199
+    },
+    {
+      "id": "mendeley_2012_10",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6181909469523451
+    },
+    {
+      "id": "mendeley_2012_11",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.56074087401954
+    },
+    {
+      "id": "mendeley_2012_12",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.622726347390466
+    },
+    {
+      "id": "mendeley_2012_14",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6299601310593937
+    },
+    {
+      "id": "mendeley_2012_16",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6099357686773385
+    },
+    {
+      "id": "mendeley_2012_17",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6067875671356507
+    },
+    {
+      "id": "mendeley_2012_19",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7804170692851248
+    },
+    {
+      "id": "mendeley_2012_20",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6176101995744534
+    },
+    {
+      "id": "mendeley_2012_23",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6205739636484572
+    },
+    {
+      "id": "mendeley_2012_24",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6342042158266299
+    },
+    {
+      "id": "mendeley_2012_26",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5572380338957279
+    },
+    {
+      "id": "mendeley_2012_30",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6956130196734156
+    },
+    {
+      "id": "mendeley_2012_33",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6577089673313309
+    },
+    {
+      "id": "mendeley_2012_34",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5771954049671437
+    },
+    {
+      "id": "mendeley_2012_36",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5799051451592924
+    },
+    {
+      "id": "mendeley_2012_37",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6439876142291842
+    },
+    {
+      "id": "mendeley_2012_41",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6807275074058734
+    },
+    {
+      "id": "mendeley_2012_42",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5720940677021041
+    },
+    {
+      "id": "mendeley_2012_44",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6158476123901597
+    },
+    {
+      "id": "mendeley_2012_45",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5250664574773988
+    },
+    {
+      "id": "mendeley_2012_49",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5524545732999533
+    },
+    {
+      "id": "mendeley_2012_51",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6485976425409218
+    },
+    {
+      "id": "mendeley_2012_52",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5754142413431764
+    },
+    {
+      "id": "mendeley_2012_56",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5321798248819076
+    },
+    {
+      "id": "mendeley_2012_62",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6437375077380073
+    },
+    {
+      "id": "mendeley_2012_63",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6804801583735308
+    },
+    {
+      "id": "mendeley_2012_66",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.661758583178444
+    },
+    {
+      "id": "mendeley_2012_68",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5707328987071701
+    },
+    {
+      "id": "mendeley_2012_71",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5722409608360466
+    },
+    {
+      "id": "mendeley_2012_72",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7023019464503677
+    },
+    {
+      "id": "mendeley_2012_75",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6773069228704501
+    },
+    {
+      "id": "mendeley_2012_76",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6586023823925093
+    },
+    {
+      "id": "mendeley_2012_77",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5789461522666267
+    },
+    {
+      "id": "mendeley_2012_79",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6176202405847464
+    },
+    {
+      "id": "mendeley_2012_80",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7051334663705715
+    },
+    {
+      "id": "mendeley_2012_81",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6481994505342031
+    },
+    {
+      "id": "mendeley_2012_84",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7012251494025942
+    },
+    {
+      "id": "mendeley_2012_85",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.4129153716311748
+    },
+    {
+      "id": "mendeley_2012_86",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6115804246626755
+    },
+    {
+      "id": "mendeley_2012_87",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5630487555362261
+    },
+    {
+      "id": "mendeley_2012_88",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5873180591592811
+    },
+    {
+      "id": "mendeley_2012_89",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.640899294252309
+    },
+    {
+      "id": "mendeley_2012_90",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6656971745433372
+    },
+    {
+      "id": "mendeley_2012_91",
+      "movie": "2012",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5935887109213399
+    },
+    {
+      "id": "mendeley_2012_92",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7704363672821583
+    },
+    {
+      "id": "mendeley_2012_95",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7305288498565449
+    },
+    {
+      "id": "mendeley_2012_96",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5570930907192078
+    },
+    {
+      "id": "mendeley_2012_97",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6804195761546118
+    },
+    {
+      "id": "mendeley_2012_99",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.613737130086801
+    },
+    {
+      "id": "mendeley_2012_100",
+      "movie": "2012",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6457892265145233
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_1",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6192610985850692
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_3",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7009385399178553
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_4",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5955843221957674
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_5",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7664541948850961
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_6",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6911163381630977
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_7",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7301816280380754
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_10",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.794313949398854
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_11",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.709445339942176
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_12",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6585623988677535
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_13",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6829885469451294
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_16",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6919062812744325
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_18",
+      "movie": "A Beautiful Mind",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6637852013573539
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_19",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7805420450784465
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_21",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7844050671374715
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_22",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.772961135653997
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_23",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7914280798102741
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_25",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6720684117518835
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_28",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7183149966934526
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_31",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.661852274832822
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_33",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7855450387105165
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_36",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7972831033980663
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_37",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6945778804019992
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_40",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6216272071948578
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_42",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7950809608394716
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_46",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7493102634848136
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_48",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6715449690137287
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_49",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6487766884557952
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_50",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7552051433169122
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_51",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6165346364199634
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_52",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6003006330373831
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_53",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7485074376382741
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_54",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7622298843626466
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_55",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8061795467509394
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_58",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5971067865883591
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_63",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6455251555327383
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_64",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7363102669283371
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_66",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8027704786338039
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_68",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6318538140183048
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_70",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.776226807224924
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_71",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6329903926872771
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_72",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6958181659056243
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_73",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7826318140128624
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_74",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6413358751724137
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_76",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8148292844058412
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_77",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7000708745547608
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_79",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6763784175358262
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_80",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7948014823595062
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_82",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6775177827871953
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_83",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6015473108214179
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_88",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6983709256400248
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_90",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6806699783720244
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_91",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5034587954458581
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_92",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7721905109828242
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_95",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.672035772902719
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_97",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6569100702898368
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_98",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7237517878126001
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_99",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.678836812786283
+    },
+    {
+      "id": "mendeley_A Beautiful Mind_100",
+      "movie": "A Beautiful Mind",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7871990254199477
+    },
+    {
+      "id": "mendeley_Amadeus_1",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7119877184319526
+    },
+    {
+      "id": "mendeley_Amadeus_3",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7740536039211255
+    },
+    {
+      "id": "mendeley_Amadeus_4",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.82183010824977
+    },
+    {
+      "id": "mendeley_Amadeus_5",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7429346250415633
+    },
+    {
+      "id": "mendeley_Amadeus_6",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.822647717690535
+    },
+    {
+      "id": "mendeley_Amadeus_9",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6317885016482313
+    },
+    {
+      "id": "mendeley_Amadeus_10",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8117747412187613
+    },
+    {
+      "id": "mendeley_Amadeus_11",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6697109896720094
+    },
+    {
+      "id": "mendeley_Amadeus_13",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7757284427986934
+    },
+    {
+      "id": "mendeley_Amadeus_14",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7975891004972895
+    },
+    {
+      "id": "mendeley_Amadeus_16",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5887643398369816
+    },
+    {
+      "id": "mendeley_Amadeus_17",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7514029482936871
+    },
+    {
+      "id": "mendeley_Amadeus_19",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7775724181617506
+    },
+    {
+      "id": "mendeley_Amadeus_20",
+      "movie": "Amadeus",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7719429093623834
+    },
+    {
+      "id": "mendeley_Amadeus_21",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7677797429182008
+    },
+    {
+      "id": "mendeley_Amadeus_22",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7600661414853725
+    },
+    {
+      "id": "mendeley_Amadeus_24",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7988537469439349
+    },
+    {
+      "id": "mendeley_Amadeus_25",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7315531793916773
+    },
+    {
+      "id": "mendeley_Amadeus_26",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.79862858031913
+    },
+    {
+      "id": "mendeley_Amadeus_28",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7902247165604134
+    },
+    {
+      "id": "mendeley_Amadeus_29",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8296310709842395
+    },
+    {
+      "id": "mendeley_Amadeus_31",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.755847084246537
+    },
+    {
+      "id": "mendeley_Amadeus_32",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7706102042187112
+    },
+    {
+      "id": "mendeley_Amadeus_33",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6909966279811811
+    },
+    {
+      "id": "mendeley_Amadeus_36",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6640615054184443
+    },
+    {
+      "id": "mendeley_Amadeus_38",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5288884241430917
+    },
+    {
+      "id": "mendeley_Amadeus_40",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7492740283244347
+    },
+    {
+      "id": "mendeley_Amadeus_42",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7373400586087109
+    },
+    {
+      "id": "mendeley_Amadeus_44",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.777888655275265
+    },
+    {
+      "id": "mendeley_Amadeus_47",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7734715048614369
+    },
+    {
+      "id": "mendeley_Amadeus_48",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7535973418545517
+    },
+    {
+      "id": "mendeley_Amadeus_49",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6795225195255884
+    },
+    {
+      "id": "mendeley_Amadeus_50",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8345820850242603
+    },
+    {
+      "id": "mendeley_Amadeus_51",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7244573676560071
+    },
+    {
+      "id": "mendeley_Amadeus_53",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5784944174511812
+    },
+    {
+      "id": "mendeley_Amadeus_55",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7527042322324032
+    },
+    {
+      "id": "mendeley_Amadeus_56",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7039726990219842
+    },
+    {
+      "id": "mendeley_Amadeus_57",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6623660406373278
+    },
+    {
+      "id": "mendeley_Amadeus_60",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7306288463140831
+    },
+    {
+      "id": "mendeley_Amadeus_61",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.808598772447878
+    },
+    {
+      "id": "mendeley_Amadeus_62",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6673228581164627
+    },
+    {
+      "id": "mendeley_Amadeus_67",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7513027655486217
+    },
+    {
+      "id": "mendeley_Amadeus_71",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8108225844629406
+    },
+    {
+      "id": "mendeley_Amadeus_72",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8400828740171099
+    },
+    {
+      "id": "mendeley_Amadeus_73",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.522769702774602
+    },
+    {
+      "id": "mendeley_Amadeus_74",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7185234706694151
+    },
+    {
+      "id": "mendeley_Amadeus_75",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7450772972854008
+    },
+    {
+      "id": "mendeley_Amadeus_78",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7796850987146459
+    },
+    {
+      "id": "mendeley_Amadeus_79",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8409446193243474
+    },
+    {
+      "id": "mendeley_Amadeus_80",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7874800044950184
+    },
+    {
+      "id": "mendeley_Amadeus_81",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6662533414232977
+    },
+    {
+      "id": "mendeley_Amadeus_85",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7435889277282945
+    },
+    {
+      "id": "mendeley_Amadeus_87",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7823619350649601
+    },
+    {
+      "id": "mendeley_Amadeus_88",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.796827144825805
+    },
+    {
+      "id": "mendeley_Amadeus_89",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.751386695203862
+    },
+    {
+      "id": "mendeley_Amadeus_90",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6445556827132664
+    },
+    {
+      "id": "mendeley_Amadeus_92",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7210035406444953
+    },
+    {
+      "id": "mendeley_Amadeus_94",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6891242180476778
+    },
+    {
+      "id": "mendeley_Amadeus_95",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7191269599442659
+    },
+    {
+      "id": "mendeley_Amadeus_97",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6396943855418445
+    },
+    {
+      "id": "mendeley_Amadeus_98",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7963584590201073
+    },
+    {
+      "id": "mendeley_Amadeus_100",
+      "movie": "Amadeus",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7888226826943913
+    },
+    {
+      "id": "mendeley_Avatar_1",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7002736494741324
+    },
+    {
+      "id": "mendeley_Avatar_2",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7702062082562732
+    },
+    {
+      "id": "mendeley_Avatar_6",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.683681828372175
+    },
+    {
+      "id": "mendeley_Avatar_7",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.682071376424168
+    },
+    {
+      "id": "mendeley_Avatar_8",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.48440033279325573
+    },
+    {
+      "id": "mendeley_Avatar_12",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6341197416742462
+    },
+    {
+      "id": "mendeley_Avatar_13",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7136432339011419
+    },
+    {
+      "id": "mendeley_Avatar_14",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6815685311533543
+    },
+    {
+      "id": "mendeley_Avatar_16",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6467672671690118
+    },
+    {
+      "id": "mendeley_Avatar_18",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6619995377556861
+    },
+    {
+      "id": "mendeley_Avatar_20",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5737545310276958
+    },
+    {
+      "id": "mendeley_Avatar_22",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6296581701562313
+    },
+    {
+      "id": "mendeley_Avatar_23",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6146544796157967
+    },
+    {
+      "id": "mendeley_Avatar_24",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6452825194562702
+    },
+    {
+      "id": "mendeley_Avatar_25",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6187360242267964
+    },
+    {
+      "id": "mendeley_Avatar_26",
+      "movie": "Avatar",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7238471536781977
+    },
+    {
+      "id": "mendeley_Avatar_27",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.615419279320085
+    },
+    {
+      "id": "mendeley_Avatar_29",
+      "movie": "Avatar",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6335826221450339
+    },
+    {
+      "id": "mendeley_Avatar_30",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7232361291091571
+    },
+    {
+      "id": "mendeley_Avatar_31",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6259253331399445
+    },
+    {
+      "id": "mendeley_Avatar_32",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6440086270248743
+    },
+    {
+      "id": "mendeley_Avatar_33",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5972998385629301
+    },
+    {
+      "id": "mendeley_Avatar_36",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7166853852103608
+    },
+    {
+      "id": "mendeley_Avatar_37",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7247310058383595
+    },
+    {
+      "id": "mendeley_Avatar_38",
+      "movie": "Avatar",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5816837894200516
+    },
+    {
+      "id": "mendeley_Avatar_39",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6794657844000537
+    },
+    {
+      "id": "mendeley_Avatar_40",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6671731232119648
+    },
+    {
+      "id": "mendeley_Avatar_41",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6399036186251892
+    },
+    {
+      "id": "mendeley_Avatar_42",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7603029657525436
+    },
+    {
+      "id": "mendeley_Avatar_43",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5843869401464542
+    },
+    {
+      "id": "mendeley_Avatar_44",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6400194747977955
+    },
+    {
+      "id": "mendeley_Avatar_45",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6655859561133409
+    },
+    {
+      "id": "mendeley_Avatar_48",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6571839229371953
+    },
+    {
+      "id": "mendeley_Avatar_49",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6233884813278849
+    },
+    {
+      "id": "mendeley_Avatar_51",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6373859965203218
+    },
+    {
+      "id": "mendeley_Avatar_52",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7479059185899629
+    },
+    {
+      "id": "mendeley_Avatar_54",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6822227713955096
+    },
+    {
+      "id": "mendeley_Avatar_55",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6245903561403495
+    },
+    {
+      "id": "mendeley_Avatar_58",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7189407339530366
+    },
+    {
+      "id": "mendeley_Avatar_60",
+      "movie": "Avatar",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5938975133496424
+    },
+    {
+      "id": "mendeley_Avatar_62",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5418880824311398
+    },
+    {
+      "id": "mendeley_Avatar_63",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6272645838065712
+    },
+    {
+      "id": "mendeley_Avatar_64",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6170706330902754
+    },
+    {
+      "id": "mendeley_Avatar_65",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6400944314207885
+    },
+    {
+      "id": "mendeley_Avatar_66",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.66294127973571
+    },
+    {
+      "id": "mendeley_Avatar_67",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6557079758686338
+    },
+    {
+      "id": "mendeley_Avatar_68",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6354852629842165
+    },
+    {
+      "id": "mendeley_Avatar_70",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7279588524506142
+    },
+    {
+      "id": "mendeley_Avatar_71",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6798072295788411
+    },
+    {
+      "id": "mendeley_Avatar_72",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.631361619127237
+    },
+    {
+      "id": "mendeley_Avatar_77",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5785729704757258
+    },
+    {
+      "id": "mendeley_Avatar_78",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6843769406680408
+    },
+    {
+      "id": "mendeley_Avatar_79",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6938409126533256
+    },
+    {
+      "id": "mendeley_Avatar_80",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6231843134814713
+    },
+    {
+      "id": "mendeley_Avatar_81",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6599889528318019
+    },
+    {
+      "id": "mendeley_Avatar_82",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6794644707356575
+    },
+    {
+      "id": "mendeley_Avatar_83",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6930415529061817
+    },
+    {
+      "id": "mendeley_Avatar_84",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6233957349225756
+    },
+    {
+      "id": "mendeley_Avatar_85",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6119536732725621
+    },
+    {
+      "id": "mendeley_Avatar_88",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6218134130301913
+    },
+    {
+      "id": "mendeley_Avatar_90",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5912464844921249
+    },
+    {
+      "id": "mendeley_Avatar_91",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6764722557442336
+    },
+    {
+      "id": "mendeley_Avatar_92",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.39224615943061053
+    },
+    {
+      "id": "mendeley_Avatar_93",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6432609665305482
+    },
+    {
+      "id": "mendeley_Avatar_94",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6418294669250391
+    },
+    {
+      "id": "mendeley_Avatar_95",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.715001685016258
+    },
+    {
+      "id": "mendeley_Avatar_96",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.661884523921334
+    },
+    {
+      "id": "mendeley_Avatar_98",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6342450495837989
+    },
+    {
+      "id": "mendeley_Avatar_99",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.686575047564561
+    },
+    {
+      "id": "mendeley_Avatar_100",
+      "movie": "Avatar",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5814486016554963
+    },
+    {
+      "id": "mendeley_Clash of the Titans_3",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6959423116401591
+    },
+    {
+      "id": "mendeley_Clash of the Titans_5",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6968927367795072
+    },
+    {
+      "id": "mendeley_Clash of the Titans_9",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6770592759716169
+    },
+    {
+      "id": "mendeley_Clash of the Titans_11",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7552558517474782
+    },
+    {
+      "id": "mendeley_Clash of the Titans_14",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.645894385102781
+    },
+    {
+      "id": "mendeley_Clash of the Titans_15",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5875810621757311
+    },
+    {
+      "id": "mendeley_Clash of the Titans_16",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6179774409940268
+    },
+    {
+      "id": "mendeley_Clash of the Titans_19",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7457901241900027
+    },
+    {
+      "id": "mendeley_Clash of the Titans_20",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.721574358252386
+    },
+    {
+      "id": "mendeley_Clash of the Titans_21",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6649953083498041
+    },
+    {
+      "id": "mendeley_Clash of the Titans_22",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7342504631543482
+    },
+    {
+      "id": "mendeley_Clash of the Titans_23",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5897098659086436
+    },
+    {
+      "id": "mendeley_Clash of the Titans_26",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6294496493389553
+    },
+    {
+      "id": "mendeley_Clash of the Titans_27",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7364117171844796
+    },
+    {
+      "id": "mendeley_Clash of the Titans_28",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7491663859931391
+    },
+    {
+      "id": "mendeley_Clash of the Titans_30",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6981445049066464
+    },
+    {
+      "id": "mendeley_Clash of the Titans_33",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6222400369297792
+    },
+    {
+      "id": "mendeley_Clash of the Titans_35",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6675816900494035
+    },
+    {
+      "id": "mendeley_Clash of the Titans_38",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6284048690893804
+    },
+    {
+      "id": "mendeley_Clash of the Titans_39",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.4045179711356279
+    },
+    {
+      "id": "mendeley_Clash of the Titans_41",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.668285352616803
+    },
+    {
+      "id": "mendeley_Clash of the Titans_43",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.556769201458169
+    },
+    {
+      "id": "mendeley_Clash of the Titans_44",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7268526759708663
+    },
+    {
+      "id": "mendeley_Clash of the Titans_45",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6998028696342348
+    },
+    {
+      "id": "mendeley_Clash of the Titans_48",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6571125048815757
+    },
+    {
+      "id": "mendeley_Clash of the Titans_50",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7927320130276675
+    },
+    {
+      "id": "mendeley_Clash of the Titans_51",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7523125597771334
+    },
+    {
+      "id": "mendeley_Clash of the Titans_58",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5810781079815809
+    },
+    {
+      "id": "mendeley_Clash of the Titans_59",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7099518481974743
+    },
+    {
+      "id": "mendeley_Clash of the Titans_61",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6224531821552065
+    },
+    {
+      "id": "mendeley_Clash of the Titans_64",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7654474582914447
+    },
+    {
+      "id": "mendeley_Clash of the Titans_65",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.665424918975119
+    },
+    {
+      "id": "mendeley_Clash of the Titans_66",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7072214992001845
+    },
+    {
+      "id": "mendeley_Clash of the Titans_67",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6650129540756589
+    },
+    {
+      "id": "mendeley_Clash of the Titans_68",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7107082161149175
+    },
+    {
+      "id": "mendeley_Clash of the Titans_72",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7774782762310405
+    },
+    {
+      "id": "mendeley_Clash of the Titans_73",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7131393658171353
+    },
+    {
+      "id": "mendeley_Clash of the Titans_74",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7520417130288206
+    },
+    {
+      "id": "mendeley_Clash of the Titans_76",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7049489586448677
+    },
+    {
+      "id": "mendeley_Clash of the Titans_77",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6444866511832478
+    },
+    {
+      "id": "mendeley_Clash of the Titans_78",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6202532135251464
+    },
+    {
+      "id": "mendeley_Clash of the Titans_79",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6424279794098587
+    },
+    {
+      "id": "mendeley_Clash of the Titans_80",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6814721065742443
+    },
+    {
+      "id": "mendeley_Clash of the Titans_83",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6213184803424657
+    },
+    {
+      "id": "mendeley_Clash of the Titans_85",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7822281415917477
+    },
+    {
+      "id": "mendeley_Clash of the Titans_87",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6992475161359555
+    },
+    {
+      "id": "mendeley_Clash of the Titans_88",
+      "movie": "Clash of the Titans",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6642593504290192
+    },
+    {
+      "id": "mendeley_Clash of the Titans_92",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6025994543797943
+    },
+    {
+      "id": "mendeley_Clash of the Titans_93",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5826616744472659
+    },
+    {
+      "id": "mendeley_Clash of the Titans_94",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6414651424203459
+    },
+    {
+      "id": "mendeley_Clash of the Titans_95",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7149491164021167
+    },
+    {
+      "id": "mendeley_Clash of the Titans_98",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6070496239986253
+    },
+    {
+      "id": "mendeley_Clash of the Titans_99",
+      "movie": "Clash of the Titans",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5855262126711654
+    },
+    {
+      "id": "mendeley_Les Miserables_3",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5685407587975942
+    },
+    {
+      "id": "mendeley_Les Miserables_4",
+      "movie": "Les Miserables",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6898341659661794
+    },
+    {
+      "id": "mendeley_Les Miserables_5",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5855702025538017
+    },
+    {
+      "id": "mendeley_Les Miserables_6",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.536208016547855
+    },
+    {
+      "id": "mendeley_Les Miserables_7",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7235754793935043
+    },
+    {
+      "id": "mendeley_Les Miserables_8",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7488431044995302
+    },
+    {
+      "id": "mendeley_Les Miserables_9",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5075275236509642
+    },
+    {
+      "id": "mendeley_Les Miserables_13",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8035427021217002
+    },
+    {
+      "id": "mendeley_Les Miserables_15",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5749090149882365
+    },
+    {
+      "id": "mendeley_Les Miserables_16",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7456922365512608
+    },
+    {
+      "id": "mendeley_Les Miserables_17",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7235095384180049
+    },
+    {
+      "id": "mendeley_Les Miserables_18",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7341322058471187
+    },
+    {
+      "id": "mendeley_Les Miserables_21",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.20529166455956058
+    },
+    {
+      "id": "mendeley_Les Miserables_22",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7236009396924472
+    },
+    {
+      "id": "mendeley_Les Miserables_23",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8228138191728517
+    },
+    {
+      "id": "mendeley_Les Miserables_24",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6672365429768826
+    },
+    {
+      "id": "mendeley_Les Miserables_25",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.778570301035344
+    },
+    {
+      "id": "mendeley_Les Miserables_26",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6334961116959139
+    },
+    {
+      "id": "mendeley_Les Miserables_27",
+      "movie": "Les Miserables",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7247676082835427
+    },
+    {
+      "id": "mendeley_Les Miserables_28",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6845077673501648
+    },
+    {
+      "id": "mendeley_Les Miserables_30",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7136365123452979
+    },
+    {
+      "id": "mendeley_Les Miserables_31",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.684741584871153
+    },
+    {
+      "id": "mendeley_Les Miserables_32",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7224257466914418
+    },
+    {
+      "id": "mendeley_Les Miserables_38",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7555227072492409
+    },
+    {
+      "id": "mendeley_Les Miserables_40",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7752434554657931
+    },
+    {
+      "id": "mendeley_Les Miserables_42",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6948355429117902
+    },
+    {
+      "id": "mendeley_Les Miserables_45",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.3953396821846435
+    },
+    {
+      "id": "mendeley_Les Miserables_47",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7345126435525295
+    },
+    {
+      "id": "mendeley_Les Miserables_48",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6576262659534864
+    },
+    {
+      "id": "mendeley_Les Miserables_49",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6376920804717182
+    },
+    {
+      "id": "mendeley_Les Miserables_50",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7302589051717367
+    },
+    {
+      "id": "mendeley_Les Miserables_51",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.693469973226179
+    },
+    {
+      "id": "mendeley_Les Miserables_52",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8235807360383741
+    },
+    {
+      "id": "mendeley_Les Miserables_56",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6599252952862629
+    },
+    {
+      "id": "mendeley_Les Miserables_57",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7138156428544314
+    },
+    {
+      "id": "mendeley_Les Miserables_58",
+      "movie": "Les Miserables",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6859219365623851
+    },
+    {
+      "id": "mendeley_Les Miserables_59",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8140738268793868
+    },
+    {
+      "id": "mendeley_Les Miserables_60",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6114301268277194
+    },
+    {
+      "id": "mendeley_Les Miserables_61",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6725672588116384
+    },
+    {
+      "id": "mendeley_Les Miserables_63",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7176225515728681
+    },
+    {
+      "id": "mendeley_Les Miserables_65",
+      "movie": "Les Miserables",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6415796979517466
+    },
+    {
+      "id": "mendeley_Les Miserables_67",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5837537638037539
+    },
+    {
+      "id": "mendeley_Les Miserables_68",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7142296372276817
+    },
+    {
+      "id": "mendeley_Les Miserables_69",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6486538413573789
+    },
+    {
+      "id": "mendeley_Les Miserables_70",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6824690070374108
+    },
+    {
+      "id": "mendeley_Les Miserables_71",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7687533828166018
+    },
+    {
+      "id": "mendeley_Les Miserables_72",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6455566755657377
+    },
+    {
+      "id": "mendeley_Les Miserables_74",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6513742402188493
+    },
+    {
+      "id": "mendeley_Les Miserables_76",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7216174002438148
+    },
+    {
+      "id": "mendeley_Les Miserables_78",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5688606843748566
+    },
+    {
+      "id": "mendeley_Les Miserables_79",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7288762400279655
+    },
+    {
+      "id": "mendeley_Les Miserables_80",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.676153001879033
+    },
+    {
+      "id": "mendeley_Les Miserables_81",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.661974447943645
+    },
+    {
+      "id": "mendeley_Les Miserables_82",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6311493152693609
+    },
+    {
+      "id": "mendeley_Les Miserables_83",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6416177569709891
+    },
+    {
+      "id": "mendeley_Les Miserables_84",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7234226255023825
+    },
+    {
+      "id": "mendeley_Les Miserables_85",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6567849880139681
+    },
+    {
+      "id": "mendeley_Les Miserables_87",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6992876025153868
+    },
+    {
+      "id": "mendeley_Les Miserables_89",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7642410106396635
+    },
+    {
+      "id": "mendeley_Les Miserables_91",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6289647711423354
+    },
+    {
+      "id": "mendeley_Les Miserables_93",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5983834927239363
+    },
+    {
+      "id": "mendeley_Les Miserables_94",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8153461805843286
+    },
+    {
+      "id": "mendeley_Les Miserables_95",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7231584551045981
+    },
+    {
+      "id": "mendeley_Les Miserables_97",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.77087140244803
+    },
+    {
+      "id": "mendeley_Les Miserables_98",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7068884422292238
+    },
+    {
+      "id": "mendeley_Les Miserables_99",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6999223101159041
+    },
+    {
+      "id": "mendeley_Les Miserables_100",
+      "movie": "Les Miserables",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6356766185382194
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_1",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6947187580647737
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_4",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7172028780406049
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_6",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6743367742842072
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_8",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7371328613502217
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_9",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6446638395799461
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_10",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7094299573993195
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_14",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6874409716934479
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_15",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6395211935338035
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_17",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7055576826780673
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_20",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6879206921769728
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_21",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6154109333876928
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_26",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6701243765155742
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_30",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7107650652931893
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_31",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7574883162894168
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_32",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7479296208131982
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_34",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7825817237979598
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_35",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6159044487875697
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_36",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6168743856094085
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_37",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.42712346740974777
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_40",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6948773186729257
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_41",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6785021748919474
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_46",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7343537590328814
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_47",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6985632028159037
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_50",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.717579840816955
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_51",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6249667294153649
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_53",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7148763851494083
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_55",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7029241504961368
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_56",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7359489230702113
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_58",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5839765175770218
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_59",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7561945233110053
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_60",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6822070732447251
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_61",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6911903070318677
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_66",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7105603270949866
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_67",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6407658946025806
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_71",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6703280479209806
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_72",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.646465491789011
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_77",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7532254159483777
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_81",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6541956683486156
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_82",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5900230413636792
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_83",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6898758558649233
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_85",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7046878121151806
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_87",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7187116221054174
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_88",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5789292008720383
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_90",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7508671974944638
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_91",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6573620295706603
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_92",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6187107399401323
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_93",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5618120765769985
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_95",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6950569608731723
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_96",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7704391331481579
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_97",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6990165481785083
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_98",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.77431206990727
+    },
+    {
+      "id": "mendeley_Star Wars Episode I - The Phantom Menace_99",
+      "movie": "Star Wars Episode I - The Phantom Menace",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7336743077190424
+    },
+    {
+      "id": "mendeley_The Expendables I_3",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5855325789611695
+    },
+    {
+      "id": "mendeley_The Expendables I_4",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7875125800025291
+    },
+    {
+      "id": "mendeley_The Expendables I_6",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5670482897612412
+    },
+    {
+      "id": "mendeley_The Expendables I_7",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8048906991185802
+    },
+    {
+      "id": "mendeley_The Expendables I_9",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5002163870152033
+    },
+    {
+      "id": "mendeley_The Expendables I_11",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6547676535631689
+    },
+    {
+      "id": "mendeley_The Expendables I_12",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6665333873662915
+    },
+    {
+      "id": "mendeley_The Expendables I_14",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6205695907600733
+    },
+    {
+      "id": "mendeley_The Expendables I_16",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6785598234253435
+    },
+    {
+      "id": "mendeley_The Expendables I_19",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6617742490141837
+    },
+    {
+      "id": "mendeley_The Expendables I_24",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.687954906975054
+    },
+    {
+      "id": "mendeley_The Expendables I_25",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6556753927568028
+    },
+    {
+      "id": "mendeley_The Expendables I_26",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8257385132559981
+    },
+    {
+      "id": "mendeley_The Expendables I_27",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.736461194081572
+    },
+    {
+      "id": "mendeley_The Expendables I_29",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6858085365786554
+    },
+    {
+      "id": "mendeley_The Expendables I_33",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7289194745027757
+    },
+    {
+      "id": "mendeley_The Expendables I_34",
+      "movie": "The Expendables I",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7263815912218959
+    },
+    {
+      "id": "mendeley_The Expendables I_35",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8360686428296223
+    },
+    {
+      "id": "mendeley_The Expendables I_36",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8293631345875228
+    },
+    {
+      "id": "mendeley_The Expendables I_37",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6649821220252582
+    },
+    {
+      "id": "mendeley_The Expendables I_38",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7225745578590462
+    },
+    {
+      "id": "mendeley_The Expendables I_39",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6610528151187693
+    },
+    {
+      "id": "mendeley_The Expendables I_41",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5154165397501891
+    },
+    {
+      "id": "mendeley_The Expendables I_42",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6505946320973867
+    },
+    {
+      "id": "mendeley_The Expendables I_43",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6792215762447444
+    },
+    {
+      "id": "mendeley_The Expendables I_44",
+      "movie": "The Expendables I",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7143052407882235
+    },
+    {
+      "id": "mendeley_The Expendables I_45",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7020306376053497
+    },
+    {
+      "id": "mendeley_The Expendables I_46",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7037238578401195
+    },
+    {
+      "id": "mendeley_The Expendables I_47",
+      "movie": "The Expendables I",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7134534889441576
+    },
+    {
+      "id": "mendeley_The Expendables I_49",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5527183312808069
+    },
+    {
+      "id": "mendeley_The Expendables I_53",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5825334212019772
+    },
+    {
+      "id": "mendeley_The Expendables I_55",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7154176704046985
+    },
+    {
+      "id": "mendeley_The Expendables I_58",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6972823999272308
+    },
+    {
+      "id": "mendeley_The Expendables I_59",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8397380364650378
+    },
+    {
+      "id": "mendeley_The Expendables I_63",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7365179619011778
+    },
+    {
+      "id": "mendeley_The Expendables I_64",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.729317562762443
+    },
+    {
+      "id": "mendeley_The Expendables I_65",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7910417183201788
+    },
+    {
+      "id": "mendeley_The Expendables I_69",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6225106572735343
+    },
+    {
+      "id": "mendeley_The Expendables I_71",
+      "movie": "The Expendables I",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5042663372493602
+    },
+    {
+      "id": "mendeley_The Expendables I_72",
+      "movie": "The Expendables I",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7481501745678943
+    },
+    {
+      "id": "mendeley_The Expendables I_73",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6529551654882995
+    },
+    {
+      "id": "mendeley_The Expendables I_75",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6611950107295845
+    },
+    {
+      "id": "mendeley_The Expendables I_78",
+      "movie": "The Expendables I",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5951454359983406
+    },
+    {
+      "id": "mendeley_The Expendables I_79",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6245319277975845
+    },
+    {
+      "id": "mendeley_The Expendables I_80",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.36271590413372756
+    },
+    {
+      "id": "mendeley_The Expendables I_83",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6702681168466108
+    },
+    {
+      "id": "mendeley_The Expendables I_85",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.4886197617120394
+    },
+    {
+      "id": "mendeley_The Expendables I_86",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6331785818539398
+    },
+    {
+      "id": "mendeley_The Expendables I_87",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8548431125548553
+    },
+    {
+      "id": "mendeley_The Expendables I_89",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6065236654690372
+    },
+    {
+      "id": "mendeley_The Expendables I_90",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6874275841025966
+    },
+    {
+      "id": "mendeley_The Expendables I_91",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5311480767853036
+    },
+    {
+      "id": "mendeley_The Expendables I_92",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7260850231650354
+    },
+    {
+      "id": "mendeley_The Expendables I_95",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.637736672399012
+    },
+    {
+      "id": "mendeley_The Expendables I_96",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7836066965568501
+    },
+    {
+      "id": "mendeley_The Expendables I_97",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6610744205093838
+    },
+    {
+      "id": "mendeley_The Expendables I_99",
+      "movie": "The Expendables I",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6648422569895864
+    },
+    {
+      "id": "mendeley_The Godfather_1",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6794052606572586
+    },
+    {
+      "id": "mendeley_The Godfather_2",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6924482840860636
+    },
+    {
+      "id": "mendeley_The Godfather_3",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7293065767989919
+    },
+    {
+      "id": "mendeley_The Godfather_4",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6127155851338858
+    },
+    {
+      "id": "mendeley_The Godfather_5",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7151911229825113
+    },
+    {
+      "id": "mendeley_The Godfather_8",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5425928258384057
+    },
+    {
+      "id": "mendeley_The Godfather_10",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7014452608289615
+    },
+    {
+      "id": "mendeley_The Godfather_11",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7573860798894726
+    },
+    {
+      "id": "mendeley_The Godfather_14",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6638384921498164
+    },
+    {
+      "id": "mendeley_The Godfather_15",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.629597214230639
+    },
+    {
+      "id": "mendeley_The Godfather_16",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5181423383870275
+    },
+    {
+      "id": "mendeley_The Godfather_17",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7540163215390435
+    },
+    {
+      "id": "mendeley_The Godfather_18",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.54457687518827
+    },
+    {
+      "id": "mendeley_The Godfather_19",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7467353065130443
+    },
+    {
+      "id": "mendeley_The Godfather_20",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5529232100387727
+    },
+    {
+      "id": "mendeley_The Godfather_21",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7305646560193283
+    },
+    {
+      "id": "mendeley_The Godfather_23",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.715438662748704
+    },
+    {
+      "id": "mendeley_The Godfather_24",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6862166087005298
+    },
+    {
+      "id": "mendeley_The Godfather_25",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7720997794567505
+    },
+    {
+      "id": "mendeley_The Godfather_26",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6056825194795549
+    },
+    {
+      "id": "mendeley_The Godfather_28",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7091284457872523
+    },
+    {
+      "id": "mendeley_The Godfather_29",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.690373531984882
+    },
+    {
+      "id": "mendeley_The Godfather_31",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7447946225075617
+    },
+    {
+      "id": "mendeley_The Godfather_32",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6010410398671294
+    },
+    {
+      "id": "mendeley_The Godfather_33",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7500412877507219
+    },
+    {
+      "id": "mendeley_The Godfather_34",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7049659533528034
+    },
+    {
+      "id": "mendeley_The Godfather_36",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5880289267774296
+    },
+    {
+      "id": "mendeley_The Godfather_38",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6318123401097832
+    },
+    {
+      "id": "mendeley_The Godfather_39",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5845938405874742
+    },
+    {
+      "id": "mendeley_The Godfather_42",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6631499438468688
+    },
+    {
+      "id": "mendeley_The Godfather_43",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.4555528406211429
+    },
+    {
+      "id": "mendeley_The Godfather_44",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": false
+      },
+      "combined_score": 0.6279745538003598
+    },
+    {
+      "id": "mendeley_The Godfather_45",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7620544863501594
+    },
+    {
+      "id": "mendeley_The Godfather_46",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6229697480549352
+    },
+    {
+      "id": "mendeley_The Godfather_47",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5537959859397088
+    },
+    {
+      "id": "mendeley_The Godfather_48",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6592823996105739
+    },
+    {
+      "id": "mendeley_The Godfather_51",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6856789296245842
+    },
+    {
+      "id": "mendeley_The Godfather_52",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6704971484938417
+    },
+    {
+      "id": "mendeley_The Godfather_53",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6875391257687555
+    },
+    {
+      "id": "mendeley_The Godfather_54",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6828560865152787
+    },
+    {
+      "id": "mendeley_The Godfather_55",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8262024875950481
+    },
+    {
+      "id": "mendeley_The Godfather_56",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6831544131137646
+    },
+    {
+      "id": "mendeley_The Godfather_57",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7476399929748312
+    },
+    {
+      "id": "mendeley_The Godfather_59",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7391577533102676
+    },
+    {
+      "id": "mendeley_The Godfather_60",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6673778342851396
+    },
+    {
+      "id": "mendeley_The Godfather_61",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8348621770945294
+    },
+    {
+      "id": "mendeley_The Godfather_63",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6130128819892043
+    },
+    {
+      "id": "mendeley_The Godfather_65",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.681111223825102
+    },
+    {
+      "id": "mendeley_The Godfather_68",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5839550029707248
+    },
+    {
+      "id": "mendeley_The Godfather_69",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6696894569806511
+    },
+    {
+      "id": "mendeley_The Godfather_71",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6258148461477303
+    },
+    {
+      "id": "mendeley_The Godfather_73",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.603774433042791
+    },
+    {
+      "id": "mendeley_The Godfather_74",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7243790380046345
+    },
+    {
+      "id": "mendeley_The Godfather_75",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6658199720338306
+    },
+    {
+      "id": "mendeley_The Godfather_76",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6608135210626204
+    },
+    {
+      "id": "mendeley_The Godfather_77",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7742863278435701
+    },
+    {
+      "id": "mendeley_The Godfather_78",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.4969255197128491
+    },
+    {
+      "id": "mendeley_The Godfather_79",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6122369220005919
+    },
+    {
+      "id": "mendeley_The Godfather_80",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6771278332118249
+    },
+    {
+      "id": "mendeley_The Godfather_83",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7708467846157213
+    },
+    {
+      "id": "mendeley_The Godfather_86",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6658624231855241
+    },
+    {
+      "id": "mendeley_The Godfather_87",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5096899213748259
+    },
+    {
+      "id": "mendeley_The Godfather_88",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.637025805471258
+    },
+    {
+      "id": "mendeley_The Godfather_91",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6949785015599068
+    },
+    {
+      "id": "mendeley_The Godfather_92",
+      "movie": "The Godfather",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7710143832300614
+    },
+    {
+      "id": "mendeley_The Godfather_94",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5542624809155561
+    },
+    {
+      "id": "mendeley_The Godfather_95",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6767958079570516
+    },
+    {
+      "id": "mendeley_The Godfather_98",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5232133968599223
+    },
+    {
+      "id": "mendeley_The Godfather_100",
+      "movie": "The Godfather",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6924959447728319
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_2",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6395996135666963
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_4",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.712036055183303
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_5",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7663744311061348
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_6",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": false,
+        "combined_score": true
+      },
+      "combined_score": 0.6436715237910925
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_8",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7585923526712189
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_11",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6941969631457522
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_16",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8161616499824346
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_18",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6376629075568624
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_19",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7611660915123953
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_20",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7320534347447519
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_23",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6631377217822828
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_24",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7555798447485604
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_25",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.735931635470886
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_28",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6923624085906508
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_30",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7628026905846511
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_31",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.782799943926939
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_35",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.761018254144512
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_37",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": false,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6941002435559284
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_38",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7756581432374227
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_39",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7638808544117067
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_40",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7406524402031481
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_41",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7170430027835315
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_42",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.554104717553722
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_44",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7473082315856744
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_45",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6646625616790166
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_47",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6115975215961585
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_48",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6765129609737595
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_49",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8049638964498674
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_52",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.5931757842824787
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_54",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.828722706911762
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_55",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6553329440320294
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_57",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.675220928954679
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_58",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.8254295025249855
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_59",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7423814960992855
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_60",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7434478270882164
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_63",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.659434105307731
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_65",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.6077214495884021
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_66",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6688685410542984
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_67",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7434240026151158
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_68",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6891962717475005
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_74",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7635587211234629
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_81",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7354902716545655
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_85",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.818915624007988
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_87",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6797614738946454
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_90",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "negative",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6409057844309467
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_93",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7664984163506138
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_94",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7153195195377487
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_96",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6939292299742049
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_98",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": true,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.7508159970969533
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_99",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": false,
+        "combined_score": false
+      },
+      "combined_score": 0.56081174463535
+    },
+    {
+      "id": "mendeley_The Matrix Revolutions_100",
+      "movie": "The Matrix Revolutions",
+      "sentiment": "positive",
+      "flags": {
+        "perplexity_score": true,
+        "near_dup_score": false,
+        "density_score": true,
+        "combined_score": true
+      },
+      "combined_score": 0.6452723321657036
+    }
+  ]
+}
