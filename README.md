@@ -8,7 +8,7 @@ This package contains the exact review files and scripts used for the experiment
 - The packages in `requirements.txt`
 - About 2 GB of free disk space for the first run, when the pretrained models are downloaded
 
-The first run downloads GPT-2 and the `all-MiniLM-L6-v2` sentence-embedding model from Hugging Face. The detector and classifier then run locally. You do not need an OpenAI API key or a Weights & Biases account to reproduce the saved experiment. The included review files preserve the exact generated examples used in the reported run, so you do not need to generate them again.
+The first run downloads GPT-2 and the `all-MiniLM-L6-v2` sentence-embedding model from Hugging Face. The detector and classifier then run locally. The included review files preserve the exact generated examples used in the reported run, so they can be used directly in the analysis.
 
 ## Run the experiment
 
