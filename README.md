@@ -56,7 +56,7 @@ python code/audit_mendeley_collection.py \
   --out outputs/source_audit.json
 ```
 
-The audit reports detector flags, not verified AI authorship. The Mendeley collection does not identify the authors of individual reviews. Attribution and license details are in `DATASET-ATTRIBUTION.md`.
+The Mendeley reviews are treated as human-written because the collection says they were extracted from IMDb and was published in 2019, before [ChatGPT launched publicly](https://openai.com/index/chatgpt/). The collection does not verify each review's author. The audit reports detector flags, not confirmed AI authorship. Attribution and license details are in `DATASET-ATTRIBUTION.md`.
 
 ## Files
 
