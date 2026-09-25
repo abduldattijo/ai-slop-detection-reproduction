@@ -12,9 +12,11 @@ The first run downloads GPT-2 and the `all-MiniLM-L6-v2` sentence-embedding mode
 
 ## Run the experiment
 
-From this directory, create and activate a virtual environment, then install the dependencies:
+Clone the repository, enter its directory, create and activate a virtual environment, then install the dependencies:
 
 ```bash
+git clone https://github.com/abduldattijo/ai-slop-detection-reproduction.git
+cd ai-slop-detection-reproduction
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
